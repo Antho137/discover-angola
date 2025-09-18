@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <BrowserRouter basename="/dicover-angola/">
+    <BrowserRouter basename="/discover-angola/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
