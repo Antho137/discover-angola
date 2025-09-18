@@ -5,7 +5,7 @@ const Footer = () => {
     const thisYear = new Date().getFullYear();
 
   return (
-    <div className="w-100 text-white p-4 mt-5 fw-bold" style='background-image: url(./images/Bahia-de-Luanda.jpg); background-size: cover' id='footer'>
+    <div className="w-100 bg-secondary bg-opacity-20 text-white p-4 mt-5 fw-bold" id='footer'>
         <div className="d-flex flex-column align-items-start justify-content-start gap-3 px-3 flex-lg-row justify-content-around">
             <div className="mb-2">
                 <h5 className="text-warning">DiscoverAngola</h5>
