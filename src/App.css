@@ -1,0 +1,87 @@
+body a {
+  text-decoration: none;
+}
+
+.navbar a {
+  font-size: .875rem;
+}
+
+#responsive, #btnIcon {
+  display: block;
+}
+
+#responsive li {
+  list-style: none;
+}
+
+#large {
+  display: none;
+}
+
+#intro button:hover {
+  color: #4169e1;
+  background-color: #fff;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, .7) !important;
+}
+
+div img {
+  max-width: 100%;
+  height: auto;
+}
+
+#ferro {
+  font-size: .75rem;
+}
+
+.section p {
+  font-size: .875rem;
+}
+
+.luanda img {
+  max-width: 100%;
+  height: auto;
+}
+
+#discover img {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  max-width: 320px;
+}
+
+#footer {
+  background-image: url(./images/Bahia-de-Luanda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+
+#footer p {
+  margin: 0;
+  padding: 0 0 5px;
+  font-size: .875rem;
+}
+
+#link a, #social a {
+  font-size: .875rem;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #responsive, #btnIcon {
+    display: none;
+  }
+
+  #large {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #large li {
+    list-style: none;
+    padding: 0 10px;
+  }
+}
