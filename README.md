@@ -19,8 +19,8 @@
 
 ## Links
 
-- Solution URL: https://github.com/Antho137/discovery-angola
-- Live Site URL: https://antho137.github.io/discovery-angola/
+- Solution URL: https://github.com/Antho137/discover-angola
+- Live Site URL: https://antho137.github.io/discover-angola/
 
 ## Author
 
